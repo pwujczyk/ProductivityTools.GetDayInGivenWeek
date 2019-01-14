@@ -73,7 +73,8 @@ function Get-DayInGivenWeek {
 	{
 		if($date.AddDays($i).DayOfWeek -eq $dayProvided)
 		{
-			$date.AddDays($i)
+			$result=$date.AddDays($i)
+			Write-Output $result
 			break
 		}
 	}

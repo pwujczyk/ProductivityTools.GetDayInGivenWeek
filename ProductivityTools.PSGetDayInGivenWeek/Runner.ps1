@@ -20,4 +20,4 @@ Get-DayInGivenWeek $(Get-Date) -Saturday -After
 Get-DayInGivenWeek $(Get-Date) -Sunday -After 
 
 Write-Host "empty"
-Get-DayInGivenWeek $(Get-Date)
+#Get-DayInGivenWeek $(Get-Date)

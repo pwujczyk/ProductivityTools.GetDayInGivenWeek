@@ -6,7 +6,8 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
-    <Name>ProductivityTools.PSGetDayInGivenWeek</Name>
+    <Name>ProductivityTools.GetDayInGivenWeek</Name>
+    <ProjectHome />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,8 +28,8 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="ProductivityTools.PSGetDayInGivenWeek.psd1" />
-    <Compile Include="ProductivityTools.PSGetDayInGivenWeek.psm1" />
+    <Compile Include="ProductivityTools.GetDayInGivenWeek.psd1" />
+    <Compile Include="ProductivityTools.GetDayInGivenWeek.psm1" />
     <Compile Include="Runner.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

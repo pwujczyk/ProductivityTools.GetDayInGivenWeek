@@ -12,7 +12,7 @@
 
 # Get day in a given week
 
-The module calculates the date of the day of the week (Monday, Tuesday,…) for the given week.
+The module calculates date of the day of the week (Monday, Tuesday,…) for the given week.
 <!--more-->
 Let's say that I would like to receive the first Monday after 2018.01.01 I could use the command
 

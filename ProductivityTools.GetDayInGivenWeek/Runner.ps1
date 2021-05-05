@@ -1,6 +1,6 @@
 clear
 cd $PSScriptRoot
-Import-Module .\ProductivityTools.PSGetDayInGivenWeek.psm1 -Force
+Import-Module .\ProductivityTools.GetDayInGivenWeek.psm1 -Force
 
 
 Get-DayInGivenWeek $(Get-Date) -Monday -Before 

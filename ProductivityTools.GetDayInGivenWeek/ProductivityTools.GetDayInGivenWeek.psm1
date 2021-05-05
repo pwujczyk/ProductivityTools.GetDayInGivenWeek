@@ -37,7 +37,7 @@ function GetRequestedDayOfWeek{
 
 function Get-DayInGivenWeek {
 	[CmdletBinding()]
-	param([DateTime]$Date,
+	param([DateTime]$Date=$(Get-Date),
 		[Switch]$Monday,
 		[Switch]$Tuesday,
 		[Switch]$Wednesday,

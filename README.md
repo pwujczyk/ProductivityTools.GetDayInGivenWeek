@@ -10,30 +10,32 @@
     </a>
 </p>
 
-# Get day in given week
+# Get day in a given week
 
-Module calculates date of day of week (Monday, Tuesday,…) for given week.
+The module calculates the date of the day of the week (Monday, Tuesday,…) for the given week.
+<!--more-->
+Let's say that I would like to receive the first Monday after 2018.01.01 I could use the command
 
-Lets say that I would like to receive first Monday after 2018.01.01 I could use command
-
-```powershell
+```PowerShell
 Get-DayInGivenWeek '2020.01.01' -Monday
 ```
 and it will return
 
-```powershell
+```PowerShell
 2020.01.06
 ```
 ![Example](Images/SimpleExample.png)
 
 
-If I would like to find previous one then I will use
+If I would like to find a previous one then I will use
 
-```powershell
+```PowerShell
 Get-DayInGivenWeek '2020.01.01' -Monday -Before
 2019.12.30
 ```
 
-Day parameter can be omitted. Than current date will be taken.
+Day parameter can be omitted. Then the current date will be taken.
 
+<!--og-image-->
 ![Simplest command](Images/CleanVersion.png)
+

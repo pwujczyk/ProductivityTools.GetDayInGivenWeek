@@ -1,8 +1,8 @@
 <!--Category:PowerShell--> 
  <p align="right">
     <a href="https://www.powershellgallery.com/packages/ProductivityTools.GetDayInGivenWeek/"><img src="Images/Header/Powershell_border_40px.png" /></a>
-    <a href="http://www.productivitytools.tech/get-day-in-given-week/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
-    <a href="https://github.com/pwujczyk/ProductivityTools.ConvertDocuments/"><img src="Images/Header/Github_border_40px.png" /></a>
+    <a href="http://productivitytools.tech/get-day-in-given-week/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
+    <a href="https://github.com/pwujczyk/ProductivityTools.GetDayInGivenWeek/"><img src="Images/Header/Github_border_40px.png" /></a>
 </p>
 <p align="center">
     <a href="http://http://productivitytools.tech/">
@@ -24,7 +24,7 @@ and it will return
 ```powershell
 2020.01.06
 ```
-![Simlest command](Images/SimpleExample.png)
+![Example](Images/SimpleExample.png)
 
 
 If I would like to find previous one then I will use
@@ -34,6 +34,6 @@ Get-DayInGivenWeek '2020.01.01' -Monday -Before
 2019.12.30
 ```
 
-Day parameter can be ommited. Than current date will be taken.
+Day parameter can be omitted. Than current date will be taken.
 
-![Simlest command](Images/CleanVersion.png)
+![Simplest command](Images/CleanVersion.png)
